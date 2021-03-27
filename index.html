@@ -1,24 +1,133 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola mundo</title>
-    <link rel="stylesheet" href="./style.css"
+	<meta charset="utf-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+	<title>LECCIEG</title>
 </head>
-<body>
-    <header>
+<body data-spy="sroll" data-target="menu">
 
-    </header>
-    <main>
-        <p>Esta es mi primera prueba en github, estoy emocionado,
-            por aprender mas. XD
-        </p>
-    </main>
-    <footer>
+	<!--? NAVBAR -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="menu">
+		<div class="container-fluid">
+			<a href="#" class="navbar-brand"><img src="img/logo_transparent.png" width="65px" alt="Logo"></a>
+			<a href="#" class="navbar-brand">Comunidad LECCIEG</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-    </footer>
+			<div class="collapse navbar-collapse justify-content-center" id="navbarMain">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a href="#home" class="nav-link">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a href="#sobre-nosotros" class="nav-link">Sobre nosotros</a>
+					</li>
+					<li class="nav-item">
+						<a href="#galeria" class="nav-link">Galeria</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contacto" class="nav-link">Contacto</a>
+					</li>
+
+				</ul>
+			</div>
+
+		</div>
+		
+	</nav>
+	<!--? HEADER / HERO -->
+	<header class="hero text-white" id="home">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 d-none d-md-block">
+					<img src="img/header-hero/hero-mobile.png" alt="Celular" class="mobile-image">
+				</div>
+				<div class="col-12 col-md-7">
+					<h1 class="mb-5">LECCIEG</h1>
+					<p class="mb-5"> Hemos observado que los estudiantes de primer semestre por su inexperiencia suelen tener bastantes problemas a los cuales muchas veces no se les da solución lo cual puede conllevar a dificultades en su proceso de formación, y nosotros brindamos las respuestas que posiblemente ellos necesitan por medio de una página web llamada LECCIEG, de manera que su proceso de formación no sea tan drástico y facilite su estadía en la universidad como nuevo estudiante.
+					</p>
+					<button class="bnt btn-info mb-5">Genial!!</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--? SOBRE NOSOTROS -->
+	    <section id="sobre-nosotros">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center">
+                        <img src="img/logo_transparent.png" width="200px" alt="Logo">
+                        <h5 class="text-muted mt-2 mb-4 wow animate__animated animate__headShake" data-wow-delay="1s">
+                            Sobre nosotros</h5>
+                        <h3 class="text-info mb-5 wow animate__animated animate__headShake" data-wow-delay="1s">Nuestra pagina de la Universidad del Tolima para estudiantes de primer semestre (LECCIEG)</h3>
+                        <p class="mb-4 text-muted" align="left">Desde muchos años atrás se ve y se escucha de estudiantes nuevos al ingresar a un instituto de educación superior (no importa que instituto sea). siempre han tenido y tienen problemas al enfrentarse como primíparos a todo lo que tiene que ver con ser nuevos estudiantes. <br>
+
+Esto es porque las problemáticas que suelen tener los estudiantes de primer semestre, no se suelen abordar de la mejor manera, o directamente no se hace nada, entonces se plantea el desarrollo de una página web que permita orientar a las situaciones más destacadas por el estudiante primiparo sobre las decisiones que debe de tomar en casos más destacados los cuales son tres donde se evidencia que la mayoría de las veces los estudiantes suelen perderse de aulas de clases y esto no es solucionado de manera inmediata y eficaz, a lo cual los estudiantes deben buscar ayuda al personal de la universidad y que en ocasiones estudiantes de semestres superiores se aprovechan de eso para jugarles/nos “bromitas”, donde se pierde tiempo y algunos malos momentos, etc.<br>
+
+Además también vimos que los estudiantes tienen problemas a la hora de la inscripción ya que no están muy relacionados con este tipo de procesos, todo esto debido a que la mayoría son egresados del colegio y los que la inscripción la suelen hacer hasta los mismos padres y no ellos mismos como es que debería de hacerse.<br>
+
+Y por último la otra problemática son las dificultades de pago, las cuales suelen ser dos, una que directamente el estudiante no posee los recursos necesarios para el pago del semestre, y la otra es que no saben muchas veces donde pagar, a lo cual para no tener tantos inconvenientes es necesario dejar aún más claro los lugares oficiales, y el tiempo que tardan en llegar los pagos.<br>
+
+El porqué de este desarrollo, es la solución de todas estas problemáticas planteadas anteriormente, para que el estudiante se centre principalmente en la parte académica para mejorar así su rendimiento y facilitar su estadía en la universidad del tolima y también que  no tenga excusas, aunque pueden ser muy básicas las problemáticas, y hasta un poco“incomprendidas”, todo esto va sumando hasta llegar a un punto donde la universidad mejore aún más poco a poco, por prestar atencion y solucion a todos estos pequeños detalles pero no menos importantes.
+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<!--? GALERIA -->
+	    <section class="mt-5" id="galeria">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <div class="swiper-container pb-4 wow animate__animated animate__fadeInRight">
+                        <div class="swiper-wrapper text-center">
+                            <div class="swiper-slide">
+                                <img src="img/galeria/mobile-1.png" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/galeria/mobile-2.png" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/galeria/mobile-3.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-5 col-lg-3 text-center text-sm-left mt-5 text-white">
+                    <div class="mb-3">
+                        <h5>Heading</h5>
+                        <h3>Subheading</h3>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, voluptate! Quis iusto iste ea?
+                        Magni, consequuntur corporis. Animi mollitia maxime fugit doloribus iste. Aperiam, ab?</p>
+                    <button type="button" class="btn btn-info">Saber más</button>
+                </div>
+            </div>
+        </div>
+    </section>
+	<!--? PRECIO -->
+	<!--? CONTACTO -->
+	<!--? FOOTER -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="  https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
 </body>
 </html>
